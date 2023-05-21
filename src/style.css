@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 2px 100px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    border-radius: 20px;
+}
+td{
+    width: 100px;
+    height: 45px;
+    border-bottom: 3.4px dashed yellow;
+    text-align: center;
+    color: white;
+    margin: 95px;
+    font-size: x-large;
+}
+td:hover{
+    transform: scale3d(1.3,1.3,2);
+    border: 2px solid rgb(222, 5, 23);
+    font-size: 1.4em;
+    background-color: rgb(241, 171, 20);
+}
+input{
+    width: 205px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+}
+input:hover{
+    transform: scale(1.2);
+}
+button{
+    width: 45px;
+    height: 30px;
+    background-color: white;
+}
+button:hover{
+    background-color: rgb(13, 199, 250);
+    transform: scale(1.2);
+    color: white;
+}
